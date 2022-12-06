@@ -1,0 +1,24 @@
+{
+  "name": "legion-ui-pg",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@legion-theme/fin": "link:../Theme-FIN-Website",
+    "@legion-theme/agree": "link:../Theme-Agree-Website",
+    "legion-ui": "link:../legion-ui",
+    "next": "12.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "eslint": "8.26.0",
+    "eslint-config-next": "13.0.0"
+  }
+}
