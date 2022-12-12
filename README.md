@@ -13,11 +13,11 @@ Run legion-ui application in your local environment, and run `yarn link` in legi
 
 * Then, run the playground development server:
 
-```bash
-yarn
-# then
-yarn dev
-```
+    ```bash
+    yarn
+    # then
+    yarn dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
