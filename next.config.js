@@ -12,7 +12,9 @@ const path = require("path");
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     // Your config here
-    
+    images: {
+        domains: ['situswebsite.com']
+    },
     webpack: (config) => {
         // This fixes the invalid hook React error which
         // will occur when multiple versions of React is detected

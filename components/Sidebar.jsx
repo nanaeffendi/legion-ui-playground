@@ -13,7 +13,8 @@ export default function Sidebar() {
           { icon: 'Layout', route: '/Components/SidebarNavLink', title: 'SidebarNavLink' },
           { icon: 'Airplay', route: '/Components/Modal', title: 'Modal' },
           { icon: 'Airplay', route: '/Components/Dropdown', title: 'Dropdown' },
-          { icon: 'Airplay', route: '/Components/Chips', title: 'Chips' }
+          { icon: 'Airplay', route: '/Components/Chips', title: 'Chips' },
+          { icon: 'BookOpen', route: '/Components/TabBar', title: 'TabBar' }
         ]
     },
     { icon: 'BookOpen', route: 'https://google.com', title: 'Library' },
